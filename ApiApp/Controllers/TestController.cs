@@ -56,7 +56,7 @@ namespace ApiApp.Controllers
             }
             else
             {
-                return Request.CreateResponse(HttpStatusCode.BadGateway, "user name and password is not valid.");
+                return Request.CreateResponse(HttpStatusCode.BadGateway, "User name and password is not valid.");
             }
         }
 
